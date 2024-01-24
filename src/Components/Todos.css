@@ -1,0 +1,50 @@
+.Todos {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.listtodo {
+    display: block;
+    width: 300px;
+    margin: auto;
+}
+
+.listitems {
+    list-style: none;
+    text-align: left;
+    padding: 12px;
+    margin: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.removebutton {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e74c3c;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.removebutton:hover {
+    background-color: #c0392b;
+}
+
+.Todos {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #2ecc71; /* Green color for the heading */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
